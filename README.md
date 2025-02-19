@@ -30,6 +30,8 @@
     aws_secret_access_key=....
     aws_session_token=......
     ```
+    ![image](https://github.com/user-attachments/assets/4904a5ba-6a77-4530-9542-3c51157056f1)
+
     1. Iniciar la aplicación Powershell o Windows Terminal en modo administrador
     2. En el terminal, ejecutar el siguiente comando para crear la carpeta y archivos de conexion a AWS
     ```Powershell
@@ -313,6 +315,10 @@ public class TipoMovimiento
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/bbb60989-eb76-409d-bb5c-dbd16b9f34b7)
+
+
+
 4. En Visual Studio Code, dentro del proyecto Financiera.WebApp, crear la carpeta Mapeos, y dentro de esta crear los siguientes archivos con lo siguientes contenidos:
 > ClienteConfiguracion.cs
 ```CSharp
@@ -388,6 +394,10 @@ public class TipoMovimientoConfiguracion : IEntityTypeConfiguration<TipoMovimien
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/e53847f3-8a3b-45f9-9d5e-169d6b5c8271)
+
+
+
 7. En Visual Studio Code, dentro del proyecto Financiera.WebApp, en la raiz crear el siguiente archivo y contenido:
 > FinancieraContexto.cs
 ```CSharp
@@ -436,6 +446,7 @@ public class FinancieraContexto : DbContext
     } 
 }
 ```
+![image](https://github.com/user-attachments/assets/69749ea8-0447-472a-ba43-28114b0d955e)
 
 8. En el terminal, ejecutar el siguiente comando para iniciar una base de datos MariaDB:
 ```Bash
